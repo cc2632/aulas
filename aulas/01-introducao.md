@@ -148,6 +148,19 @@ Null             | \0
 
 ---
 
+### Inicialização de variáveis
+
+```c
+#include <stdio.h>
+
+void main() {
+    int i;
+    pritf("%d\n",i);
+}
+```
+
+---
+
 ### Operadores
 
 ```c
