@@ -6,7 +6,7 @@ paginate: true
 lang: pt-br
 ---
 
-# Aula 10 - Strings
+# Aula 06 - Strings
 
 ---
 
