@@ -22,26 +22,26 @@ lang: pt-br
 ## incremento e decremento
 ```c
 int i = 0;
-printf("%d", i);
+printf("%d\n", i);
 i++;
-printf("%d", i);
+printf("%d\n", i);
 ++i;
-printf("%d", i);
+printf("%d\n", i);
 i--;
-printf("%d", i);
+printf("%d\n", i);
 --i;
-printf("%d", i);
+printf("%d\n", i);
 ```
 ---
 
 ## incremento e decremento
 ```c
 int i = 0;
-printf("%d", i++);
-printf("%d", ++i);
-printf("%d", i--);
-printf("%d", --i);
-printf("%d", i);
+printf("%d\n", i++);
+printf("%d\n", ++i);
+printf("%d\n", i--);
+printf("%d\n", --i);
+printf("%d\n", i);
 ```
 
 ---
