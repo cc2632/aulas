@@ -6,7 +6,7 @@ paginate: true
 lang: pt-br
 ---
 
-# Aula 03 - Funções
+# Aula 02 - Funções
 
 ---
 
