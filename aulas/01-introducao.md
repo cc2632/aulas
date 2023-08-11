@@ -16,9 +16,65 @@ _footer: Leonardo Anjoletto Ferreira
 ---
 
 ### Assuntos
+- Sobre a disciplina
 - Introdução a disciplina
 - Tipos de valores e exibição
 - Leitura de valores do teclado
+
+---
+
+# Por que desenvolvimento de algoritmos?
+
+---
+
+### No semestre passado...
+
+- Introdução a lógica de programação
+- Linguagem (Python) + lógica de programação
+- **Vantagens:** Python abstrai muitas coisas da programação e facilita o estudo da lógica
+- **Desvantagens:** Python abstrai muitas coisas da programação e podemos não saber o que está acontecendo
+
+---
+
+### Neste semestre...
+- Desenvolvimento de algoritmos
+- Linguagem C + lógica de programação
+- **Objetivo:**
+  - desenvolver soluções genéricas de problemas usando lógica
+  - entender como isso é feito em mais baixo nível (do que Python)
+
+---
+
+### C?
+
+- Linguagem antiga mas muito usada
+- Base para alguns sistemas operacionais (UNIX, Linux, MacOS)
+- Sintaxe usada como base para diversas linguagens (C++, Java, C#,...)
+- Linguagem compilada (executável é gerado a partir do código escrito)
+- Permite que o programador tenha mais controle sobre o programa (uso de registradores de CPU, alocação de memória, paralelismo...)
+- Ainda muito utilizada
+
+---
+
+![bg](./figs/kr.jpg)
+
+---
+
+### PDP-7 em funcionamento
+
+[Living computer museum + labs](https://youtu.be/pvaPaWyiuLA)
+
+---
+
+### C vs Python
+
+-                |     C       | Python
+-----------------|-------------|-------------
+**Nível**        | Baixo       | Alto
+**Execução**     | Compilada   | Interpretada
+**Variáveis**    | Tipo fixo   | Tipo dinâmico
+**Ger. Memória** | Programador | Garbage Collector
+**Paradigma**    | Estruturado | Vários (OOP, Funcional, Estruturado)
 
 ---
 
