@@ -211,7 +211,7 @@ Null             | \0
 
 void main() {
     int i;
-    pritf("%d\n",i);
+    printf("%d\n",i);
 }
 ```
 
