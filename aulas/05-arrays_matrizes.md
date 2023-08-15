@@ -6,6 +6,11 @@ paginate: true
 lang: pt-br
 ---
 
+<!--
+_header: CC2632 - Desenvolvimento de Algoritmos
+_footer: Leonardo Anjoletto Ferreira
+-->
+
 # Aula 05 - Arrays e matrizes
 
 ---
