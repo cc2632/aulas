@@ -84,7 +84,7 @@ int fibonacci(int pos){
 Em C:
 - Uma função **deve** ser declarada antes de ser usada;
 - Podemos declarar a assinatura da função antes de ser usada e fazer a implementação depois;
--  Podemos declarar uma função dentro ou fora da `main` ou de qualquer outra função. Porém esta funcão só existe dentro da outra.
+- Só podemos declarar uma função fora de outra função
 
 ---
 
