@@ -17,9 +17,10 @@ _footer: Leonardo Anjoletto Ferreira
 
 ## Assuntos
 
-- leitura e escrita
+- leitura e escrita de arquivos texto
 - opções e retornos das funções
-- outras funções
+- leitura e escrita de arquivos binários
+- arquivos e streams
 
 ---
 
@@ -180,11 +181,48 @@ int main(){
 
 ---
 
-## Outras funções para leitura/escrita
+## Leitura e escrita de arquivos binários
 
 - `int fread(void *p, int size, int n, FILE *fp)`: le os `n` dados de tamanho `size` do arquivo `fp` e armazena em `p`
 
 - `int fwrite(const void *p, int size, int n, FILE *fp)`: escreve `n` dados do tamanho `size` da variável `p` em `fp`
+
+---
+
+## Escrita de arquivos binários
+
+```c
+#include <stdio.h>
+
+int main(){
+    int tamanho = 5;
+    int v[tamanho] = {1, 2, 3, 4, 5};
+
+    FILE* f = fopen("arquivo", "wb");
+    fwrite(v, sizeof(int), tamanho, f);
+    fclose(f);
+}
+```
+
+---
+
+## Leitura de arquivos binários
+
+```c
+#include <stdio.h>
+
+int main(){
+    int tamanho = 5;
+    int v[tamanho];
+
+    FILE* f = fopen("arquivo", "wb");
+    fread(v, sizeof(int), tamanho, f);
+    fclose(f);
+
+    for(int i=0; i<tamanho; i++)
+        printf("%d ", v[i]);
+}
+```
 
 ---
 
