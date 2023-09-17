@@ -1,4 +1,5 @@
 #include <math.h>
+#include <stdio.h>
 
 // lab 1
 float media(float x, float y) { return (x + y) / 2.; }
@@ -42,4 +43,39 @@ int acimaDe(float valor, float limite) {
     return 1;
 
   return 0;
+}
+
+// lab 3
+int busca(int valor, int valores[], int tamanho) {
+  for (int i = 0; i < tamanho; i++)
+    if (valores[i] == valor)
+      return i;
+
+  return -1;
+}
+
+float mediaPonderada(float valores[], float pesos[], int tamanho) {
+  float media = 0;
+  for (int i = 0; i < tamanho; i++)
+    media += valores[i] * pesos[i];
+
+  return media;
+}
+
+int tamanho(char string[]) {
+  int i = 0;
+  while (string[i] != '\0')
+    i++;
+  return i;
+}
+
+void copiaString(char string1[], char string2[]) {
+  for (int i = 0; string1[i] != '\0'; i++)
+    string2[i] = string1[i];
+}
+
+void input(char print[], char leitura[], int tamanho) {
+  printf("%s\n", print);
+  // scanf("%[^\n]s", leitura);
+  fgets(leitura, tamanho, stdin);
 }
