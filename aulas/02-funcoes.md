@@ -6,6 +6,11 @@ paginate: true
 lang: pt-br
 ---
 
+<!--
+_header: CC2632 - Desenvolvimento de Algoritmos
+_footer: Leonardo Anjoletto Ferreira
+-->
+
 # Aula 02 - Funções
 
 ---
@@ -84,7 +89,7 @@ int fibonacci(int pos){
 Em C:
 - Uma função **deve** ser declarada antes de ser usada;
 - Podemos declarar a assinatura da função antes de ser usada e fazer a implementação depois;
--  Podemos declarar uma função dentro ou fora da `main` ou de qualquer outra função. Porém esta funcão só existe dentro da outra.
+- Só podemos declarar uma função fora de outra função
 
 ---
 
@@ -203,3 +208,11 @@ int main(){
 </div>
 </div>
 
+---
+
+## Preparação para o laboratório
+
+Para ficar mais fácil no laboratório, vamos criar:
+- Um arquivo biblioteca.h com o cabeçalho das funções que vamos implementar
+- Um arquivo biblioteca.c com as implementações das funções
+- Um arquivo main.c com os testes das funções
