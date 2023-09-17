@@ -51,7 +51,7 @@ int main() {
   int tamanho_array = 5;
   printf("O valor %d está na posicao %d do array\n", valor,
          busca(valor, array, tamanho_array));
-  printf("O valor %d está na posicao %d do array\n", valor,
+  printf("O valor %d está na posicao %d do array\n", 1,
          busca(1, array, tamanho_array));
 
   printf("\nLab 3 - Ex 2\n");
@@ -76,9 +76,23 @@ int main() {
   printf("String 2: %s\n", teste2);
   printf("Tamanho da string 2: %d\n", tamanho(teste2));
 
-  printf("\nLab 3 - Ex 5\n");
-  char print[] = "Insira um texto:";
-  char leitura[20];
-  input(print, leitura, sizeof(leitura));
-  printf("String lida: %s\n", leitura);
+  // printf("\nLab 3 - Ex 5\n");
+  // char print[] = "Insira um texto:";
+  // char leitura[20];
+  // input(print, leitura, sizeof(leitura));
+  // printf("String lida: %s\n", leitura);
+
+  printf("\nLab 4 - Ex 2\n");
+  char *nome = "array";
+  escreveArray(array, tamanho_array, nome);
+  printf("Array 1: ");
+  for (int i = 0; i < tamanho_array; i++)
+    printf("%d ", array[i]);
+
+  int array2[tamanho_array];
+  leArray(array2, tamanho_array, nome);
+  printf("\nArray 2: ");
+  for (int i = 0; i < tamanho_array; i++)
+    printf("%d ", array2[i]);
+  printf("\n");
 }

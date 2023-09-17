@@ -46,36 +46,57 @@ int acimaDe(float valor, float limite) {
 }
 
 // lab 3
-int busca(int valor, int valores[], int tamanho) {
+int busca(int valor, int *valores, int tamanho) {
   for (int i = 0; i < tamanho; i++)
-    if (valores[i] == valor)
+    if (*(valores + i) == valor)
       return i;
 
   return -1;
 }
 
-float mediaPonderada(float valores[], float pesos[], int tamanho) {
+float mediaPonderada(float *valores, float *pesos, int tamanho) {
   float media = 0;
   for (int i = 0; i < tamanho; i++)
-    media += valores[i] * pesos[i];
+    media += *(valores + i) * *(pesos + i);
 
   return media;
 }
 
-int tamanho(char string[]) {
+int tamanho(char *string) {
   int i = 0;
-  while (string[i] != '\0')
+  while (*(string + i) != '\0')
     i++;
   return i;
 }
 
-void copiaString(char string1[], char string2[]) {
-  for (int i = 0; string1[i] != '\0'; i++)
-    string2[i] = string1[i];
+void copiaString(char *string1, char *string2) {
+  for (int i = 0; *(string1 + i) != '\0'; i++)
+    *(string2 + i) = *(string1 + i);
 }
 
-void input(char print[], char leitura[], int tamanho) {
+void input(char *print, char *leitura, int tamanho) {
   printf("%s\n", print);
   // scanf("%[^\n]s", leitura);
   fgets(leitura, tamanho, stdin);
+}
+
+// lab 4
+void escreveArray(int array[], int tamanho, char *nome) {
+  FILE *fp = fopen(nome, "wb");
+
+  if (fp == NULL)
+    return;
+
+  fwrite(array, sizeof(int), tamanho, fp);
+  fclose(fp);
+}
+
+void leArray(int array[], int tamanho, char *nome) {
+  FILE *fp = fopen(nome, "rb");
+
+  if (fp == NULL)
+    return;
+
+  fread(array, sizeof(int), tamanho, fp);
+  fclose(fp);
 }
