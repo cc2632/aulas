@@ -95,4 +95,31 @@ int main() {
   for (int i = 0; i < tamanho_array; i++)
     printf("%d ", array2[i]);
   printf("\n");
+
+  printf("\nLab 5 - Ex 1\n");
+  nome = "constantes.json";
+  Contantes c, c2, c3;
+  c.pi = 3.1415926;
+  c.e = 2.7182818;
+  printf("Antes de ler do arquivo JSON\n");
+  printf("c: pi=%.2f\te=%.2f\n", c.pi, c.e);
+  printf("c2: pi=%.2f\te=%.2f\n", c2.pi, c2.e);
+  escreveJSON(c, nome);
+
+  printf("\nLab 5 - Ex 2\n");
+  leJSON(&c2, nome);
+  printf("Depois de ler do arquivo JSON\n");
+  printf("c: pi=%.2f\te=%.2f\n", c.pi, c.e);
+  printf("c2: pi=%.2f\te=%.2f\n", c2.pi, c2.e);
+
+  printf("\nLab 5 - Ex 3\n");
+  nome = "structs";
+  printf("Antes de ler do arquivo binario\n");
+  printf("c: pi=%.2f\te=%.2f\n", c.pi, c.e);
+  printf("c3: pi=%.2f\te=%.2f\n", c3.pi, c3.e);
+  escreveBinario(c, nome);
+  leBinario(&c3, nome);
+  printf("Depois de ler do arquivo binario\n");
+  printf("c: pi=%.2f\te=%.2f\n", c.pi, c.e);
+  printf("c3: pi=%.2f\te=%.2f\n", c3.pi, c3.e);
 }

@@ -22,3 +22,12 @@ void escreveArray(int array[], int tamanho, char *nome);
 void leArray(int array[], int tamanho, char *nome);
 
 // lab 5
+typedef struct {
+  double pi;
+  double e;
+} Contantes;
+
+void escreveJSON(Contantes c, char *nome);
+void leJSON(Contantes *c, char *nome);
+void escreveBinario(Contantes c, char *nome);
+void leBinario(Contantes *c, char *nome);

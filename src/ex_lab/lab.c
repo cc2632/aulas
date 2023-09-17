@@ -1,3 +1,4 @@
+#include "lab.h"
 #include <math.h>
 #include <stdio.h>
 
@@ -98,5 +99,37 @@ void leArray(int array[], int tamanho, char *nome) {
     return;
 
   fread(array, sizeof(int), tamanho, fp);
+  fclose(fp);
+}
+
+// lab 5
+
+void escreveJSON(Contantes c, char *nome) {
+  FILE *fp = fopen(nome, "w");
+  fprintf(fp, "{\n");
+  fprintf(fp, "\t\"pi\":%lf,\n", c.pi);
+  fprintf(fp, "\t\"e\":%lf\n", c.e);
+  fprintf(fp, "}");
+  fclose(fp);
+}
+
+void leJSON(Contantes *c, char *nome) {
+  FILE *fp = fopen(nome, "r");
+  char tmp[10];
+  fscanf(fp, "%s", tmp);
+  fscanf(fp, "\t\"pi\":%lf,\n", &c->pi);
+  fscanf(fp, "\t\"e\":%lf\n", &c->e);
+  fclose(fp);
+}
+
+void escreveBinario(Contantes c, char *nome) {
+  FILE *fp = fopen(nome, "wb");
+  fwrite(&c, sizeof(Contantes), 1, fp);
+  fclose(fp);
+}
+
+void leBinario(Contantes *c, char *nome) {
+  FILE *fp = fopen(nome, "rb");
+  fread(c, sizeof(Contantes), 1, fp);
   fclose(fp);
 }
