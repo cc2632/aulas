@@ -144,7 +144,7 @@ struct disciplina {
 
 ## Struct - exemplo
 
-```c10
+```c
 int main(){
     struct disciplina cc2632;
     strcpy(cc2632.codigo, "CC2632");
@@ -157,7 +157,7 @@ int main(){
 
 ## Struct - exemplo
 
-```c16
+```c
     printf("\nValores:\n");
     printf("Codigo: %s\n", cc2632.codigo);
     printf("Nome: %s\n", cc2632.nome);
@@ -188,7 +188,7 @@ scanf("%d", &d.aulas_lab);
 ---
 
 ## Struct - exemplo de leitura do teclado
-```c12
+```c
 printf("\nValores:\n");
 printf("Codigo: %s\n", d.codigo);
 printf("Nome: %s\n", d.nome);
@@ -212,8 +212,8 @@ Vamos ver com calma nas próximas aulas porque depende de ponteiros.
 struct disciplina {
   int aulas_teoria;
   int aulas_lab;
-  char *codigo;
-  char *nome;
+  char codigo[7];
+  char nome[50];
 };
 ```
 
