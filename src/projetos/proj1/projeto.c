@@ -1,5 +1,6 @@
 #include "projeto.h"
 #include <stdio.h>
+#include <string.h>
 
 int criarTarefa(ListaDeTarefas *lt) {
   Tarefa *t = &lt->tarefas[lt->qtd];
@@ -19,7 +20,18 @@ int criarTarefa(ListaDeTarefas *lt) {
 }
 
 int deletarTarefa(ListaDeTarefas *lt) {
-  printf("deletar tarefa\n");
+  int pos;
+  printf("Entre com a posicao da tarefa que sera deletada: ");
+  scanf("%d", &pos);
+
+  for (; pos < lt->qtd - 1; pos++) {
+    lt->tarefas[pos].prioridade = lt->tarefas[pos + 1].prioridade;
+    strcpy(lt->tarefas[pos].descricao, lt->tarefas[pos + 1].descricao);
+    strcpy(lt->tarefas[pos].categoria, lt->tarefas[pos + 1].categoria);
+  }
+
+  lt->qtd--;
+
   return 0;
 }
 
@@ -28,8 +40,8 @@ int listarTarefas(ListaDeTarefas *lt) {
     return 1;
 
   for (int i = 0; i < lt->qtd; i++) {
-    printf("Prioridade: %d \t Categoria: %s\n", lt->tarefas[i].prioridade,
-           lt->tarefas[i].categoria);
+    printf("Pos: %d \t Prioridade: %d \t Categoria: %s\n", i,
+           lt->tarefas[i].prioridade, lt->tarefas[i].categoria);
     printf("Descricao: %s\n", lt->tarefas[i].descricao);
   }
 
