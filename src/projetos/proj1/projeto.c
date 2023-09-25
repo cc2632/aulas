@@ -3,6 +3,9 @@
 #include <string.h>
 
 int criarTarefa(ListaDeTarefas *lt) {
+  if (lt->qtd >= TOTAL_TAREFAS)
+    return 1;
+
   Tarefa *t = &lt->tarefas[lt->qtd];
 
   printf("Entre com a prioridade da tarefa: ");
@@ -20,9 +23,14 @@ int criarTarefa(ListaDeTarefas *lt) {
 }
 
 int deletarTarefa(ListaDeTarefas *lt) {
+  if (lt->qtd == 0)
+    return 1;
   int pos;
   printf("Entre com a posicao da tarefa que sera deletada: ");
   scanf("%d", &pos);
+
+  if (pos < 0 || pos > lt->qtd - 1)
+    return 2;
 
   for (; pos < lt->qtd - 1; pos++) {
     lt->tarefas[pos].prioridade = lt->tarefas[pos + 1].prioridade;

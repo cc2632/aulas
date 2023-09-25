@@ -1,3 +1,5 @@
+#define TOTAL_TAREFAS 100
+
 typedef struct {
   int prioridade;
   char descricao[300];
@@ -5,7 +7,7 @@ typedef struct {
 } Tarefa;
 
 typedef struct {
-  Tarefa tarefas[100];
+  Tarefa tarefas[TOTAL_TAREFAS];
   int qtd;
 } ListaDeTarefas;
 
