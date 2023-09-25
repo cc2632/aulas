@@ -3,10 +3,16 @@
 
 int main() {
   ListaDeTarefas lt;
-  lt.qtd = 0;
 
   char arquivo[] = "tarefas";
   int codigo, opcao;
+
+  codigo = carregarTarefas(&lt, arquivo);
+
+  if (codigo != 0) {
+    printf("lista de tarefas nao carregada");
+    lt.qtd = 0;
+  }
 
   do {
     exibeMenu();
@@ -27,4 +33,8 @@ int main() {
     }
 
   } while (opcao != 0);
+
+  codigo = salvarTarefas(&lt, arquivo);
+  if (codigo != 0)
+    printf("erro ao salvar tarefas em arquivo");
 }
