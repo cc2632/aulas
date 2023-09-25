@@ -3,6 +3,21 @@
 
 int criarTarefa(ListaDeTarefas *lt) {
   printf("criar tarefa\n");
+
+  Tarefa *t = &lt->tarefas[lt->qtd];
+
+  printf("Entre com a prioridade da tarefa: ");
+  scanf("%d", &t->prioridade);
+
+  printf("Entre com a categoria da tarefa: ");
+  scanf("%s", t->categoria);
+
+  printf("Entre com a descrição da tarefa: ");
+  scanf("%s", t->descricao);
+
+  printf("%d \t %s \t %s", t->prioridade, t->categoria, t->descricao);
+  lt->qtd++;
+
   return 0;
 }
 
