@@ -13,8 +13,6 @@ int criarTarefa(ListaDeTarefas *lt) {
   printf("Entre com a descrição da tarefa: ");
   scanf("%s", t->descricao);
 
-  printf("%d \t %s \t %s", t->prioridade, t->categoria, t->descricao);
-
   lt->qtd++;
 
   return 0;
@@ -42,4 +40,10 @@ int carregarTarefas(ListaDeTarefas *lt, char *nome) { return 0; }
 
 int salvarTarefas(ListaDeTarefas *lt, char *nome) { return 0; }
 
-void exibeMenu() { printf("menu\n"); }
+void exibeMenu() {
+  printf("Menu\n");
+  printf("1. Criar tarefa\n");
+  printf("2. Deletar tarefa\n");
+  printf("3. Listar tarefa\n");
+  printf("0. Sair\n");
+}
