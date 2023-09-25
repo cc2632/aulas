@@ -26,13 +26,14 @@ int deletarTarefa(ListaDeTarefas *lt) {
   return 0;
 }
 
-int listarTarefas(ListaDeTarefas lt) {
-  printf("listar tarefa\n");
+int listarTarefas(ListaDeTarefas *lt) {
+  if (lt->qtd == 0)
+    return 1;
 
-  for (int i = 0; i < lt.qtd; i++) {
-    printf("Prioridade: %d \t Categoria: %s\n", lt.tarefas[lt.qtd].prioridade,
-           lt.tarefas[lt.qtd].categoria);
-    printf("Descricao: %s\n", lt.tarefas[lt.qtd].descricao);
+  for (int i = 0; i < lt->qtd; i++) {
+    printf("Prioridade: %d \t Categoria: %s\n", lt->tarefas[i].prioridade,
+           lt->tarefas[i].categoria);
+    printf("Descricao: %s\n", lt->tarefas[i].descricao);
   }
 
   return 0;
