@@ -20,7 +20,7 @@ int main() {
       codigo = deletarTarefa(&lt);
       printf("codigo = %d\n", codigo);
     } else if (opcao == 3) {
-      codigo = listarTarefas(lt);
+      codigo = listarTarefas(&lt);
       printf("codigo = %d\n", codigo);
     } else {
       printf("opcao invalida\n");
