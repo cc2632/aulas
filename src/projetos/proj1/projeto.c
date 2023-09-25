@@ -28,8 +28,8 @@ int listarTarefas(ListaDeTarefas *lt) {
     return 1;
 
   for (int i = 0; i < lt->qtd; i++) {
-    printf("Prioridade: %d \t Categoria: %s\n", lt->tarefas[i].prioridade,
-           lt->tarefas[i].categoria);
+    printf("Pos: %d \t Prioridade: %d \t Categoria: %s\n", i,
+           lt->tarefas[i].prioridade, lt->tarefas[i].categoria);
     printf("Descricao: %s\n", lt->tarefas[i].descricao);
   }
 
