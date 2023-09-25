@@ -3,6 +3,9 @@
 #include <string.h>
 
 int criarTarefa(ListaDeTarefas *lt) {
+  if (lt->qtd >= TOTAL_TAREFAS)
+    return 1;
+
   Tarefa *t = &lt->tarefas[lt->qtd];
 
   printf("Entre com a prioridade da tarefa: ");

@@ -21,7 +21,8 @@ int main() {
     if (opcao == 0) {
     } else if (opcao == 1) {
       codigo = criarTarefa(&lt);
-      printf("codigo = %d\n", codigo);
+      if (codigo == 1)
+        printf("erro ao criar tarefa: sem espaco disponivel\n");
     } else if (opcao == 2) {
       codigo = deletarTarefa(&lt);
       printf("codigo = %d\n", codigo);
