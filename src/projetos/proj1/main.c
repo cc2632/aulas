@@ -25,7 +25,10 @@ int main() {
         printf("erro ao criar tarefa: sem espaco disponivel\n");
     } else if (opcao == 2) {
       codigo = deletarTarefa(&lt);
-      printf("codigo = %d\n", codigo);
+      if (codigo == 1)
+        printf("erro ao deletar tarefa: nao existem tarefas para deletar\n");
+      else if (codigo == 2)
+        printf("erro ao deletar tarefa: posicao invalida\n");
     } else if (opcao == 3) {
       codigo = listarTarefas(&lt);
       printf("codigo = %d\n", codigo);
