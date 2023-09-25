@@ -31,7 +31,8 @@ int main() {
         printf("erro ao deletar tarefa: posicao invalida\n");
     } else if (opcao == 3) {
       codigo = listarTarefas(&lt);
-      printf("codigo = %d\n", codigo);
+      if (codigo == 1)
+        printf("erro ao listar tarefas: nao existem tarefas para listar\n");
     } else {
       printf("opcao invalida\n");
     }
