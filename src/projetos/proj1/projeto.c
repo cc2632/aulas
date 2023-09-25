@@ -48,9 +48,27 @@ int listarTarefas(ListaDeTarefas *lt) {
   return 0;
 }
 
-int carregarTarefas(ListaDeTarefas *lt, char *nome) { return 0; }
+int carregarTarefas(ListaDeTarefas *lt, char *nome) {
+  FILE *fp = fopen(nome, "rb");
+  if (fp == NULL)
+    return 1;
 
-int salvarTarefas(ListaDeTarefas *lt, char *nome) { return 0; }
+  fread(lt, sizeof(ListaDeTarefas), 1, fp);
+  fclose(fp);
+
+  return 0;
+}
+
+int salvarTarefas(ListaDeTarefas *lt, char *nome) {
+  FILE *fp = fopen(nome, "wb");
+  if (fp == NULL)
+    return 1;
+
+  fwrite(lt, sizeof(ListaDeTarefas), 1, fp);
+  fclose(fp);
+
+  return 0;
+}
 
 void exibeMenu() {
   printf("Menu\n");
