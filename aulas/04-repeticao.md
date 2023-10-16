@@ -141,6 +141,10 @@ while (i < 10) {
 ---
 
 ## while e for
+
+<div class="columns">
+<div>
+
 ```c
 int i = 0;
 while (i < 10) {
@@ -148,12 +152,17 @@ while (i < 10) {
     i++;
 }
 ```
+</div>
+<div>
 
 ```c
 int i;
 for (i = 0; i < 10; i++)
     printf("%d ", i);
 ```
+
+<div>
+</div>
 
 ---
 
@@ -172,6 +181,9 @@ usado quando queremos garantir que o loop será executado pelo menos uma vez
 
 ## do...while vs while
 
+<div class="columns">
+<div>
+
 ```c
 int i = 0;
 while (i < 10 && i > 0) {
@@ -179,12 +191,18 @@ while (i < 10 && i > 0) {
 }
 ```
 
+</div>
+<div>
+
 ```c
 int i = 0;
 do {
     printf("%d ", i++);
 } while (i < 10 && i> 0);
 ```
+
+</div>
+</div>
 
 ---
 
@@ -267,12 +285,18 @@ int main(){
 
 ## Exemplo da soma
 
+<div class="columns">
+<div>
+
 ```c
 // laço de repetição
 int soma = 0;
 for(int i=1; i<n+1; i++)
     soma += i;
 ```
+
+</div>
+<div>
 
 ```c
 // recursividade
@@ -283,3 +307,7 @@ int soma(int n){
         return soma(n-1) + n;
 }
 ```
+
+</div>
+</div>
+
