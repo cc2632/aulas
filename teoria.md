@@ -5,6 +5,7 @@ paging: "%d/%d"
 ---
 
 # CC2632 - Desenvolvimento de algoritmos
+## Teoria
 
 ```c
 #include <stdio.h>
