@@ -7,6 +7,12 @@ paging: "%d/%d"
 # CC2632 - Desenvolvimento de algoritmos
 ## Laboratório
 
+```sh
+git add Dockerfile
+git commit -m "feat: adição do Dockerfile"
+git push origin main
+```
+
 ---
 
 ## Compilação e interpretação de código
