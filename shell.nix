@@ -3,8 +3,7 @@
 } }:
     pkgs.mkShell {
       nativeBuildInputs = with pkgs.buildPackages; [
-        jetbrains.clion
-        vscode
+        slides
         clang-tools
         clang
         gcc
