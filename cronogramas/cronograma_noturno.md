@@ -23,13 +23,13 @@
 | **7**      | 01/04    | segunda        | Teoria        | Git Worktree                         |
 | **7**      | 02/04    | terça          | Teoria        | Diretivas e macros                   |
 | **7**      | 05/04    | sexta          | Lab           | Projeto 1                            |
-| **8**      | 08/04    | segunda        | Teoria        | Docker images                        |
+| **8**      | 08/04    | segunda        | Teoria        | Máquinas virtuais e containers       |
 | **8**      | 09/04    | terça          | Teoria        | Apresentação do projeto 2            |
 | **8**      | 12/04    | sexta          | Lab           | Projeto 2                            |
-| **9**      | 15/04    | segunda        | Teoria        | Dockerfile                           |
+| **9**      | 15/04    | segunda        | Teoria        | Docker images                        |
 | **9**      | 16/04    | terça          | Teoria        | Apresentação do projeto 3            |
 | **9**      | 19/04    | sexta          | Lab           | Projeto 3                            |
-| **10**     | 22/04    | segunda        | Teoria        | Docker compose                       |
+| **10**     | 22/04    | segunda        | Teoria        | Dockerfile                           |
 | **10**     | 23/04    | terça          | Teoria        | Apresentação do projeto 4            |
 | **10**     | 26/04    | sexta          | Lab           | Projeto 3                            |
 | **11**     | 29/04    | segunda        | Teoria        | Compilação e interpretação de código |
