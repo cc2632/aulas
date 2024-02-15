@@ -1,24 +1,18 @@
 ---
+title: Teoria
 author: Leonardo Anjoletto Ferreira
-date: ""
-paging: "%d/%d"
+theme: custom
+paginate: true
+lang: pt-br
 ---
 
 # CC2632 - Desenvolvimento de algoritmos
-## Laboratório
 
 ```sh
 git add Dockerfile
 git commit -m "feat: adição do Dockerfile"
 git push origin main
 ```
-
----
-
-## Compilação e interpretação de código
-
-- python
-- C (gcc e clang)
 
 ---
 
@@ -35,10 +29,9 @@ git push origin main
 
 ## Serviços de armazenamento
 
-- Github
+- Github + Github Codespace
 - Gitlab
-- Gitea
-- Bitbucket
+- Gitpods
 
 ---
 
@@ -51,25 +44,10 @@ git push origin main
 
 ---
 
-## Docker - parte 1
+## Docker
 
 - containers vs VMs
 - ambiente de desenvolvimento usando containers
-
----
-
-## Serviços de ambiente de desenvolvimento
-
-- Codespace
-- Gitpod
-- Replit
-
----
-
-## Git - parte 3
-
-- rebase
-- fast forward
 
 ---
 
@@ -79,36 +57,3 @@ git push origin main
 - .gitignore
 - Dockerfile
 - pasta com código
-
----
-
-## Git - parte 4
-
-- bare
-- worktree
-
----
-
-## Docker - parte 2
-
-- Imagens e containers
-- Pastas dentro de containers
-
----
-
-## Docker - parte 3
-
-- Dockerfile
-- layers
-- construção de imagens
-
----
-
-## Compilação em C
-
-- make
-- cmake
-
----
-
-## Valgrind

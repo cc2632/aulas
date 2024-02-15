@@ -1,11 +1,12 @@
 ---
+title: Teoria
 author: Leonardo Anjoletto Ferreira
-date: ""
-paging: "%d/%d"
+theme: custom
+paginate: true
+lang: pt-br
 ---
 
 # CC2632 - Desenvolvimento de algoritmos
-## Teoria
 
 ```c
 #include <stdio.h>
@@ -56,7 +57,6 @@ int main(){
 
 - declaração de arrays
 - tipos dos dados dentro do array
-- matrizes
 - arrays com múltiplas dimensões
 
 ---
@@ -64,7 +64,6 @@ int main(){
 ## Strings
 
 - char e strings
-- matrizes
 - `string.h`
 
 ---
@@ -80,31 +79,16 @@ int main(){
 ## Arquivos
 
 - arquivos e streams
-- escrita em arquivos texto
-- leitura em arquivos texto
+- escrita/leitura em arquivos texto
 - opções e retornos de funções
-- escrita de arquivos binários
-- leitura de arquivos binários
+- escrita/leitura de arquivos binários
 
 ---
 
 ## Tipos de agrupamentos e enumeração
 
-- `typedef`
 - `enum`
 - `struct`
 - `union`
+- `typedef`
 
----
-
-## Diretivas de pré-processamento
-
-- `define`
-- `ifndef`
-
----
-
-## Ponteiros - parte 2
-
-- Ponteiros de tipo `void`
-- Ponteiros de função
