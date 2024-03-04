@@ -1,5 +1,5 @@
 ---
-title: Teoria
+title: Laboratório
 author: Leonardo Anjoletto Ferreira
 theme: custom
 paginate: true
@@ -16,6 +16,14 @@ git push origin main
 
 ---
 
+## Serviços de armazenamento
+
+- Github + Github Codespace
+- Gitlab
+- Gitpods
+
+---
+
 ## Git
 
 - versionamento de código
@@ -25,13 +33,6 @@ git push origin main
 - log
 - .gitignore
 
----
-
-## Serviços de armazenamento
-
-- Github + Github Codespace
-- Gitlab
-- Gitpods
 
 ---
 
@@ -41,6 +42,13 @@ git push origin main
 - branch
 - merge
 - pull/merge request
+
+---
+
+## Github/Gitlab
+
+- Issues
+- Github Workflow
 
 ---
 
