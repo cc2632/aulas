@@ -3,7 +3,6 @@
 } }:
     pkgs.mkShell {
       nativeBuildInputs = with pkgs.buildPackages; [
-        slides
         clang-tools
         clang
         gcc
