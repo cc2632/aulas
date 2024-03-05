@@ -5,7 +5,7 @@
 @import 'default';
 
 section {
-    font-family: "Fira Code";
+    font-family: "intel one mono";
     font-size: 30px;
 }
 
@@ -28,7 +28,7 @@ h3 {
 }
 
 code {
-    font-family: "Fira Code";
+    font-family: "intel one mono";
     color: black;
 }
 
