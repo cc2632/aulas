@@ -16,7 +16,7 @@
 | 4          | 15/03    | sexta          | L        | Issues e Github Workflow             |
 | 5          | 18/03    | segunda        | T        | Projeto 0 - parte 1                  |
 | 5          | 19/03    | terça          | T        | Projeto 0 - parte 2                  |
-| 5          | 22/03    | sexta          | L        | Docker                               |
+| 5          | 22/03    | sexta          | L        | Projeto 0 - parte 3                  |
 | 6          | 25/03    | segunda        | T        | Ponteiros de função e de void        |
 | 6          | 26/03    | terça          | T        | Docker                               |
 | 6          | 29/03    | sexta          | L        | **Recesso**                          |
@@ -38,7 +38,7 @@
 | 12         | 06/05    | segunda        | T        | Garbage collector e borrow checker   |
 | 12         | 07/05    | terça          | T        | Projeto 4                            |
 | 12         | 10/05    | sexta          | L        | Projeto 4                            |
-| 13         | 13/05    | segunda        | T        | Máquina virtual e container          |
+| 13         | 13/05    | segunda        | T        | Máquina virtual, container e docker  |
 | 13         | 14/05    | terça          | T        | Projeto 4                            |
 | 13         | 17/05    | sexta          | L        | Projeto 5                            |
 | 14         | 20/05    | segunda        | T        | Dockerfile                           |
