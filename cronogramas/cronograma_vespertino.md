@@ -18,7 +18,7 @@
 | 5          | 20/03    | quarta         | L        | Projeto 0 - parte 2                  |
 | 5          | 22/03    | sexta          | T        | Projeto 0 - parte 3                  |
 | 6          | 26/03    | terça          | T        | Ponteiros de função e de void        |
-| 6          | 27/03    | quarta         | L        | Modelo de repositório                |
+| 6          | 27/03    | quarta         | L        | Projeto 2 - Apresentação             |
 | 6          | 29/03    | sexta          | T        | **Recesso**                          |
 | 7          | 02/04    | terça          | T        | Projeto 1                            |
 | 7          | 03/04    | quarta         | L        | Projeto 2                            |
@@ -26,22 +26,22 @@
 | 8          | 09/04    | terça          | T        | Compilação e interpretação de código |
 | 8          | 10/04    | quarta         | L        | Projeto 2                            |
 | 8          | 12/04    | sexta          | T        | Projeto 3                            |
-| 9          | 16/04    | terça          | T        | Make e CMake                         |
+| 9          | 16/04    | terça          | T        | Projeto 3 - Apresentação             |
 | 9          | 17/04    | quarta         | L        | Projeto 3                            |
 | 9          | 19/04    | sexta          | T        | Projeto 3                            |
-| 10         | 23/04    | terça          | T        | Hyperfine                            |
+| 10         | 23/04    | terça          | T        | Make e CMake                         |
 | 10         | 24/04    | quarta         | L        | Projeto 3                            |
-| 10         | 26/04    | sexta          | T        | Projeto 4                            |
-| 11         | 30/04    | terça          | T        | Valgrind                             |
+| 10         | 26/04    | sexta          | T        | Projeto 3 e 4                        |
+| 11         | 30/04    | terça          | T        | Projeto 4 - Apresentação             |
 | 11         | 01/05    | quarta         | L        | **Recesso**                          |
 | 11         | 03/05    | sexta          | T        | Projeto 4                            |
 | 12         | 07/05    | terça          | T        | Garbage collector e borrow checker   |
 | 12         | 08/05    | quarta         | L        | Projeto 4                            |
-| 12         | 10/05    | sexta          | T        | Projeto 4                            |
-| 13         | 14/05    | terça          | T        | Máquina virtual, container e docker  |
-| 13         | 15/05    | quarta         | L        | Projeto 4                            |
+| 12         | 10/05    | sexta          | T        | Projeto 4 e 5                        |
+| 13         | 14/05    | terça          | T        | Projeto 5 - Apresentação             |
+| 13         | 15/05    | quarta         | L        | Projeto 4 e 5                        |
 | 13         | 17/05    | sexta          | T        | Projeto 5                            |
-| 14         | 21/05    | terça          | T        | Dockerfile                           |
+| 14         | 21/05    | terça          | T        | Máquina virtual, container e docker  |
 | 14         | 22/05    | quarta         | L        | Projeto 5                            |
 | 14         | 24/05    | sexta          | T        | Projeto 5                            |
 | 15         | 28/05    | terça          | T        | Provas finais                        |
