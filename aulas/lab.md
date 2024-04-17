@@ -65,3 +65,30 @@ git push origin main
 - .gitignore
 - Dockerfile
 - pasta com código
+
+
+---
+
+## Resumo
+
+não é uma ordem que devem ser executados, mas uma lista de comandos que podem ser usados
+
+- git
+```shell
+git pull
+git branch -a
+git checkout nome_da_branch
+
+git add nome_dos_arquivos
+git commit -m "mensagem"
+git push
+```
+
+- compilação
+```shell
+gcc arq1.c arq2.c
+gcc *.c
+gcc arq1.c arq2.c -o executavel
+./executavel
+./a.out
+```
