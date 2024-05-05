@@ -6,6 +6,7 @@
         clang-tools
         clang
         gcc
+        cmake
       ];
     }
 
