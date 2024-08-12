@@ -17,14 +17,12 @@ _footer: Leonardo Anjoletto Ferreira
 
 ## Funcionamento da disciplina
 
-- 4 aulas de teoria + 2 aulas de laboratório
-- Primeira metade ("o que preciso para passar de semestre"):
-  - 4 aulas de teoria com teoria
-  - 2 aulas de laboratório sobre ferramentas
-- Segunda metade ("o que posso aprender a mais"):
-  - 2 aulas de laboratório para projetos
-  - 2 aulas de teoria sobre programação
-  - 2 aulas de teoria sobre ferramentas
+- 4 aulas de laboratório
+- Primeira parte ("o que preciso para passar de semestre"):
+  - 4 aulas de teoria com teoria e ferramentas
+- Segunda parte ("o que posso aprender a mais"):
+  - aulas para desenvolvimento do projeto
+  - 4 aulas com aprofundamentos sobre a teoria
 
 ---
 
@@ -36,19 +34,16 @@ _footer: Leonardo Anjoletto Ferreira
 
 - **NÃO** teremos entregas nos laboratórios
 - Lista de 10 exercícios no Moodle para ser entregue na última sexta-feira antes da semana de provas
-- Fator de exercícios é a quantidade de exercícios que foram tentados, mesmo que não funcionem completamente, conforme a fórmula
-$$ f_{ex} = 0,6 + 0,4 \cdot \frac{\textrm{total entregue}}{10} $$
 
 ---
 
 ## Avaliações - projetos
 
-- Somente o projeto 1 terá que ser entregue na aula
-- Os outros projetos possuem prazo para entrega
+- Todos os projetos possuem prazo para entrega
 - Teremos aulas para desenvolver em sala
 - Podem ser desenvolvidos em qualquer horário
 - A nota de projetos será a média das notas dos projetos
-$$ Projeto = \frac{\sum \textrm{nota dos projetos}}{5} $$
+$$ Projeto = \frac{\sum \textrm{nota dos projetos}}{3} $$
 
 ---
 
@@ -63,9 +58,8 @@ $$ Projeto = \frac{\sum \textrm{nota dos projetos}}{5} $$
 
 ## Critério de avaliação
 
-$$ \textrm{Média} = f_{ex} \cdot \sqrt{Projeto \cdot Prova} $$
+$$ \textrm{Média} = \sqrt{Projeto \cdot Prova} $$
 
-- $f_{ex}$: fator de exercícios
 - $Projeto$: média das notas de todos os projetos
 - $Prova$: nota da prova feita na semana de avaliações finais
 - A avaliação substitutiva só substitui a prova e **NÃO** substitui projetos ou a lista de exercícios
