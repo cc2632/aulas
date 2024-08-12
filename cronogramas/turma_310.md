@@ -16,7 +16,7 @@
 |     12     |   29/10  | Compilação e intepretação de código | 30/10    | Make e CMake                   |
 |     13     |   05/11  | Projeto 3                           | 06/11    | Projeto 3                      |
 |     14     |   12/11  | Projeto 3                           | 13/11    | Projeto 3                      |
-|     15     |   19/11  | Projeto 3                           | 20/11    | Recesso                        |
+|     15     |   19/11  | Projeto 3                           | 20/11    | **Recesso**                    |
 |     16     |   26/11  | Provas finais                       | 27/11    | Provas finais                  |
 |     17     |   03/12  | Semana de atividades especiais      | 04/12    | Semana de atividades especiais |
 |     18     |   10/12  | Provas substitutivas                | 11/12    | Provas substitutivas           |
