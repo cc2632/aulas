@@ -33,7 +33,6 @@ _footer: Leonardo Anjoletto Ferreira
 ## Avaliações - exercícios
 
 - **NÃO** teremos entregas nos laboratórios
-- Lista de 10 exercícios no Moodle para ser entregue na última sexta-feira antes da semana de provas
 
 ---
 
