@@ -1,7 +1,7 @@
 # Cronograma turma 410
 
 | **Semana** | **Data** | **Primeiro Horário**                | **Segundo Horário**             |
-|:----------:+:--------:+:------------------------------------+---------------------------------|
+|:----------:|:--------:|:------------------------------------|---------------------------------|
 |      1     |   08/08  | Introdução                          | Funções                         |
 |      2     |   15/08  | Controle de fluxe e repetição       | Vetores e matrizes              |
 |      3     |   22/08  | Strings                             | Ponteiros e alocação de memória |
@@ -22,4 +22,4 @@
 |     18     |   05/12  | Semana de atividades especiais      | Semana de atividades especiais  |
 |     19     |   12/11  | Provas substitutivas                | Provas substitutivas            |
 |     20     |   19/11  | Vista de provas substitutivas       | Vista de provas substitutivas   |
-|------------+----------+-------------------------------------+---------------------------------|
+|------------|----------|-------------------------------------|---------------------------------|

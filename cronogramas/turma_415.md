@@ -1,7 +1,7 @@
 # Cronograma turma 415
 
 | **Semana** | **Data** | **Primeiro Horário**                | **Segundo Horário**             |
-|:----------:+:--------:+:------------------------------------+---------------------------------|
+|:----------:|:--------:|:------------------------------------|---------------------------------|
 |      1     |   09/08  | Introdução                          | Funções                         |
 |      2     |   16/08  | Controle de fluxe e repetição       | Vetores e matrizes              |
 |      3     |   23/08  | Strings                             | Ponteiros e alocação de memória |
@@ -22,4 +22,4 @@
 |     18     |   06/12  | Semana de atividades especiais      | Semana de atividades especiais  |
 |     19     |   13/12  | Provas substitutivas                | Provas substitutivas            |
 |     20     |   20/12  | Término do semestre letivo          | Término do semestre letivo      |
-|------------+----------+-------------------------------------+---------------------------------|
+|------------|----------|-------------------------------------|---------------------------------|

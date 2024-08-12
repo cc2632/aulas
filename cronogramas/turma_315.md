@@ -1,7 +1,7 @@
 # Cronograma turma 315
 
 | **Semana** | **Data** | **Primeiro Horário**                | **Segundo Horário**             |
-|:----------:+:--------:+:------------------------------------+---------------------------------|
+|:----------:|:--------:|:------------------------------------|---------------------------------|
 |      1     |   12/08  | Introdução                          | Funções                         |
 |      2     |   19/08  | **Recesso**                         | **Recesso**                     |
 |      2     |   26/08  | Controle de fluxe e repetição       | Vetores e matrizes              |
@@ -21,4 +21,4 @@
 |     16     |   02/12  | Semana de atividades especiais      | Semana de atividades especiais  |
 |     17     |   09/12  | Provas substitutivas                | Provas substitutivas            |
 |     18     |   16/11  | Vista de provas substitutivas       | Vista de provas substitutivas   |
-|------------+----------+-------------------------------------+---------------------------------|
+|------------|----------|-------------------------------------|---------------------------------|
