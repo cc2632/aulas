@@ -13,7 +13,10 @@ O repositório contém os seguintes arquivos e pastas:
 - `cronogramas`: pasta contendo os cronogramas para todas as turmas atualmente cursando a disciplina;
 - `exercicios.md`: arquivo com exercícios de provas passadas que podem ser usados para estudar;
 - `teoria.md`: assuntos que serão tratados na teoria. Os códigos com exemplos para cada assunto estão na pasta `src`;
-- `src`: pasta com os códigos desenvolvidos para os assuntos tratados nas aulas;
+- `src`: pasta com os códigos desenvolvidos para os assuntos tratados nas aulas. Dentro desta pasta também estão os arquivos:
+    - `shell.nix`: para usar com o [Nix ou NixOS](https://nixos.org/)
+    - `.envrc`: para carregar os pacotes listados em `shell.nix` assim que entrar na pasta
+    - `Dockerfile`: pode ser usado para criar um container que possui tudo o que será usando na disciplina. [Uma imagem construída está disponível no container registry deste repositório](https://gitlab.com/laferreira/fei/cc2632/container_registry)
 
 
 ## Funcionamento da disciplina
