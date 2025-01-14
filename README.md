@@ -25,9 +25,9 @@ O repositório contém os seguintes arquivos e pastas:
 - Segunda parte: desenvolvimento de projetos
 - Terceira parte (últimas 3 semanas): aprofundamento da matéria + desenvolvimento de projetos
 
-# Avaliações
+## Avaliações
 
-## Avaliações - projetos
+### Avaliações - projetos
 
 - Todos os projetos possuem prazo para entrega
 - Todos os projetos devem usar sistema de versionamento (i.e., git)
@@ -36,7 +36,7 @@ O repositório contém os seguintes arquivos e pastas:
 $$ Projetos = \frac{\sum \textrm{nota dos projetos}}{\textrm{quantidade de projetos}} $$
 
 
-## Avaliações - prova
+### Avaliações - prova
 
 - Marcada pela secretaria na semana de avaliações finais
 - Feita no papel e sem consulta
@@ -44,7 +44,7 @@ $$ Projetos = \frac{\sum \textrm{nota dos projetos}}{\textrm{quantidade de proje
 - Exercícios de fundamentos da linguagem, interpretação de código e perguntas sobre o desenvolvimento do projeto (exemplos no arquivo de exercícios)
 
 
-## Critério de avaliação
+### Critério de avaliação
 
 $$ \textrm{Média} = \sqrt{\textrm{Projetos} \cdot \textrm{Prova}} $$
 
