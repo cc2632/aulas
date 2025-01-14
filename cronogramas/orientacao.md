@@ -15,9 +15,9 @@
 |     11     |   19/04  | **Recesso**                                                |
 |     12     |   26/04  | Projeto 2                                                  |
 |     13     |   03/05  | **Recesso**                                                |
-|     14     |   10/05  | Projeto 3                                                  |
-|     15     |   17/05  | Projeto 3                                                  |
-|     16     |   24/05  | Projeto 3                                                  |
+|     14     |   10/05  | Ponteiro de void e de função + Projeto 3                   |
+|     15     |   17/05  | Compilação e interpretação + Projeto 3                     |
+|     16     |   24/05  | Makefile e CMake + Projeto 3                               |
 |     17     |   31/05  | Provas finais                                              |
 |     18     |   07/06  | Semana de atividades especiais                             |
 |     19     |   14/06  | Provas substitutivas                                       |

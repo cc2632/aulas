@@ -26,13 +26,13 @@
 |    22    |   19/04  |                   | Projeto 2                       |
 |    23    |   26/04  |                   | Projeto 2                       |
 |    24    |   26/04  |                   | Projeto 2                       |
-|    25    |   03/05  |                   | Projeto 2                       |
+|    25    |   03/05  |                   | Projeto 3                       |
 |    26    |   03/05  |                   | Projeto 3                       |
-|    27    |   10/05  |                   | Projeto 3                       |
+|    27    |   10/05  |                   | Ponteiro de void e de função    |
 |    28    |   10/05  |                   | Projeto 3                       |
-|    29    |   17/05  |                   | Projeto 3                       |
+|    29    |   17/05  |                   | Compilação e interpretação      |
 |    30    |   17/05  |                   | Projeto 3                       |
-|    31    |   24/05  |                   | Projeto 3                       |
+|    31    |   24/05  |                   | Makefile e CMake                |
 |    32    |   24/05  |                   | Projeto 3                       |
 |    33    |   31/05  |                   | Provas finais                   |
 |    34    |   31/05  |                   | Provas finais                   |
