@@ -11,8 +11,9 @@ Todo o material foi escrito em markdown para ser visualizado usando o [marp](htt
 O repositório contém os seguintes arquivos e pastas:
 - `README.md`: este arquivo, explicando o repositório e o funcionamendo da disciplina;
 - `cronogramas`: pasta contendo os cronogramas para todas as turmas atualmente cursando a disciplina;
-- `exercicios.md`: arquivo com exercícios de provas passadas que podem ser usados para estudar;
-- `teoria.md`: assuntos que serão tratados na teoria. Os códigos com exemplos para cada assunto estão na pasta `src`;
+- `aulas`: pasta com os arquivos em markdown sobre os conteúdos das aulas. Atualmente possuem os arquivos:
+    - `exercicios.md`: arquivo com exercícios de provas passadas que podem ser usados para estudar;
+    - `teoria.md`: assuntos que serão tratados na teoria. Os códigos com exemplos para cada assunto estão na pasta `src`;
 - `src`: pasta com os códigos desenvolvidos para os assuntos tratados nas aulas. Dentro desta pasta também estão os arquivos:
     - `shell.nix`: para usar com o [Nix ou NixOS](https://nixos.org/)
     - `.envrc`: para carregar os pacotes listados em `shell.nix` assim que entrar na pasta

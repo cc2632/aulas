@@ -1,5 +1,5 @@
 ---
-title: Teoria
+title: Aulas de teoria
 author: Leonardo Anjoletto Ferreira
 theme: custom
 paginate: true
