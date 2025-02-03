@@ -1,23 +1,45 @@
 # Cronograma turma 310
 
-| **Semana**   | **Data**   | **Segunda**                           | **Data**   | **Terça**                        |
-| :----------: | :--------: | :------------------------------------ | ---------- | -------------------------------- |
-| 1            | 12/08      | Introdução                            | 13/08      | Funções                          |
-| 2            | 19/08      | **Recesso**                           | 20/08      | **Recesso**                      |
-| 3            | 26/08      | Controle de fluxe e repetição         | 27/08      | Vetores e matrizes               |
-| 4            | 02/09      | Strings                               | 03/09      | Ponteiros e alocação de memória  |
-| 5            | 09/09      | Enum, Structs e Union                 | 10/09      | Arquivos                         |
-| 6            | 16/09      | Projeto 1                             | 17/09      | Projeto 1                        |
-| 7            | 23/09      | Projeto 1                             | 24/09      | Projeto 1                        |
-| 8            | 30/09      | Ponteiros de função                   | 01/10      | Ponteiros de void                |
-| 9            | 07/10      | Projeto 2                             | 08/10      | Projeto 2                        |
-| 10           | 14/10      | Projeto 2                             | 15/10      | Projeto 2                        |
-| 11           | 21/10      | Projeto 2                             | 22/10      | Projeto 2                        |
-| 12           | 28/10      | Compilação e intepretação de código   | 29/10      | Make e CMake                     |
-| 13           | 04/11      | Projeto 3                             | 05/11      | Projeto 3                        |
-| 14           | 11/11      | Projeto 3                             | 12/11      | Projeto 3                        |
-| 15           | 18/11      | Projeto 3                             | 19/11      | Projeto 3                        |
-| 16           | 25/11      | Provas finais                         | 26/11      | Provas finais                    |
-| 17           | 02/12      | Semana de atividades especiais        | 03/12      | Semana de atividades especiais   |
-| 18           | 9/12       | Provas substitutivas                  | 10/12      | Provas substitutivas             |
-| 19           | 16/11      | Vista de provas substitutivas         | 17/12      | Vista de provas substitutivas    |
+| **Aula** | **Data** | **Dia da semana** | **Temas**                       |
+|:--------:|:--------:|-------------------|:--------------------------------|
+|     1    |   06/02  |                   | Introdução                      |
+|     2    |   07/02  |                   | Funções                         |
+|     3    |   13/02  |                   | Controle de fluxo e repetição   |
+|     4    |   14/02  |                   | Vetores e matrizes              |
+|     5    |   20/02  |                   | Strings                         |
+|     6    |   21/02  |                   | Ponteiros e alocação de memória |
+|     7    |   27/02  |                   | Enum, Structs, Union            |
+|     8    |   28/02  |                   | Arquivos                        |
+|     9    |   06/03  |                   | Exemplo de projeto usando git   |
+|    10    |   07/03  |                   | Exemplo de projeto usando git   |
+|    11    |   13/03  |                   | Exemplo de projeto usando git   |
+|    12    |   14/03  |                   | Exemplo de projeto usando git   |
+|    13    |   20/03  |                   | Projeto 1                       |
+|    14    |   21/03  |                   | Projeto 1                       |
+|    15    |   27/03  |                   | Projeto 1                       |
+|    16    |   28/03  |                   | Projeto 2                       |
+|    17    |   03/04  |                   | Projeto 2                       |
+|    18    |   05/04  |                   | Projeto 2                       |
+|    19    |   10/04  |                   | Projeto 2                       |
+|    20    |   11/04  |                   | Projeto 3                       |
+|    21    |   17/04  |                   | **Recesso**                     |
+|    22    |   18/04  |                   | **Recesso**                     |
+|    23    |   24/04  |                   | Projeto 3                       |
+|    24    |   25/04  |                   | Projeto 3                       |
+|    25    |   01/05  |                   | **Recesso**                     |
+|    26    |   02/05  |                   | **Recesso**                     |
+|    27    |   08/05  |                   | Ponteiro de void e de função    |
+|    28    |   09/05  |                   | Projeto 4                       |
+|    29    |   15/05  |                   | Compilação e interpretação      |
+|    30    |   16/05  |                   | Projeto 4                       |
+|    31    |   22/05  |                   | Makefile e CMake                |
+|    32    |   23/05  |                   | Projeto 4                       |
+|    33    |   29/05  |                   | Provas finais                   |
+|    34    |   30/05  |                   | Provas finais                   |
+|    35    |   05/06  |                   | Semana de atividades especiais  |
+|    36    |   06/06  |                   | Semana de atividades especiais  |
+|    37    |   12/06  |                   | Provas substitutivas            |
+|    38    |   13/06  |                   | Provas substitutivas            |
+|    39    |   19/06  |                   | **Recesso**                     |
+|    40    |   20/06  |                   | **Recesso**                     |
+|    41    |   28/06  |                   | Último dia de aula              |

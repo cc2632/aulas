@@ -1,12 +1,53 @@
-# Lista de exercícios
+# Exercícios de provas anteriores
 
-1. **Soma de Elementos em um Array**: Crie um programa que solicita ao usuário inserir elementos em um array e calcule a soma desses elementos.
-2. **Manipulação de Strings**: Desenvolva um programa que recebe uma string do usuário e conta o número de vogais nela.
-3. **Cadastro de Produtos usando Struct**: Crie uma estrutura de dados chamada "Produto" que armazena nome, preço e quantidade em estoque. Permita ao usuário cadastrar produtos, exibir as informações e calcular o valor total em estoque (preço * quantidade).
-4. **Operações Matriciais**: Implemente funções para multiplicação de matrizes e transposição. Utilize ponteiros para alocar dinamicamente o espaço de memória.
-5. **Manipulação de Ponteiros em String**: Implemente uma função que recebe uma string como entrada e retorna a mesma string, mas com todas as letras convertidas para maiúsculas. Use ponteiros para percorrer a string.
-6. **Leitura e Escrita de Registros em Arquivos Binários**: Desenvolva um programa que cria e manipula um arquivo binário para armazenar registros de funcionários. Cada registro deve conter nome, idade e salário. Permita ao usuário adicionar novos registros, listar todos os registros e buscar por registros específicos pelo nome.
-7. **Ordenação de Structs**: Crie um programa que ordena um array de structs com base em um dos campos (por exemplo, idade) usando qsort da biblioteca glibc.
-8. **Manipulação de Ponteiros**: Implemente uma função que recebe um array e seu tamanho como argumentos e retorna um novo array invertido, utilizando ponteiros.
-9. **Cálculo de Estatísticas em um Array**: Escreva um programa que recebe um array de números e calcula a média, mediana e moda dos elementos.
-10. **Manipulação de Tempo**: Utilize a biblioteca time.h para calcular o tempo que um determinado trecho de código leva para ser executado.
+## Código
+
+1. Escreva um programa que armazena seu nome completo em uma variável e seu
+número de matrícula em outra variável e em seguida exibe os valores na tela em duas
+linhas diferentes. Escreva o programa completo, inclusive as bibliotecas que precisam ser
+importadas e funções necessárias.
+
+2. Escreva um programa que exibe o código e o nome da disciplina em linhas diferentes.
+Escreva o programa completo, inclusive as bibliotecas que precisam ser importadas
+
+3. Explique como as seguintes funções funcionam:
+    - `printf`
+    - `fprintf`
+    - `scanf`
+    - `fscanf`
+    - `fwrite`
+    - `fread`
+    - `fgets`
+    - `malloc`
+    - `sizeof`
+
+4. Explique o funcionamento da função abaixo:
+```c
+int f(char *c) {
+    int i;
+    for(i=0; *(c + i) != ’\0’; i++);
+    return i;
+}
+```
+
+5. Explique o que cada linha da função abaixo faz  e em seguida explique para que a função pode ser utilizada.
+```c
+void f ( char∗ c1 , char∗ c2 ) {
+    for ( int i = 0; ∗( c1 + i ) != '\0' ; i ++)
+    ∗( c2 + i ) = ∗( c1 + i ) ;
+}
+```
+
+## Fundamentos
+
+1. Para que serve a função `main`?
+2. Como funcionam os ponteiros na linguagem C?
+3. Como funcionam os ponteiros de void?
+4. Para que pode ser utilizado um struct? Como ele é diferente de um dicionário?
+5. Quais são as diferenças entre um array e uma lista?
+6. Como um array é organizado na memória? Apresente um exemplo de seu uso e como ele seria alocado.
+7. Como um struct é organizado na memória? Apresente um exemplo de seu uso e como ele seria alocado.
+8. Em uma função, qual a diferença entre um parâmetro passado por valor e um passado por referência?
+9. Qual o tipo de valor que é armazenado em um ponteiro em C? Como este valor pode ser usado?
+10. Por que quando usamos a função scanf precisamos passar o endereço de uma variável mas não precisamos passar o endereço de um array?
+11. Explique por que podemos usar aritmética de ponteiros para acessar valores dentro de um array.
